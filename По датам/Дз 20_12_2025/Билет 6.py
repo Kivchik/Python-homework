@@ -32,8 +32,8 @@
 # 1
 
 def discount(debit):
-    if debit > 5000: return debit * 1.1
-    elif debit > 1000: return debit * 1.05
+    if debit > 5000: return debit - debit * 0.1
+    elif debit > 1000: return debit - debit * 1.05
     else: return debit
 
 
